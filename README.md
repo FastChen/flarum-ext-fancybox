@@ -9,13 +9,13 @@ A [Flarum](https://flarum.org) extension. Fancybox v6
 Install with composer:
 
 ```sh
-composer require fastchen/fancybox:"*"
+composer require fastchen/flarum-fancybox:"*"
 ```
 
 ## Updating
 
 ```sh
-composer update fastchen/fancybox:"*"
+composer update fastchen/flarum-fancybox:"*"
 php flarum migrate
 php flarum cache:clear
 ```
@@ -24,4 +24,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/fastchen/fancybox)
 - [GitHub](https://github.com/fastchen/fancybox)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss(not post yet)](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
