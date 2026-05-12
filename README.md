@@ -22,6 +22,7 @@ php flarum cache:clear
 
 ## Links
 
+- [Fancyapps](https://fancyapps.com/)
 - [Packagist](https://packagist.org/packages/fastchen/fancybox)
 - [GitHub](https://github.com/fastchen/fancybox)
 - [Discuss(not post yet)](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
