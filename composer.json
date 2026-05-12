@@ -36,8 +36,5 @@
                 "color": "#fff"
             }
         }
-    },
-    "require-dev": {
-        "flarum/testing": "^1.0"
     }
 }
