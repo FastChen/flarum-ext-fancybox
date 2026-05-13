@@ -1,10 +1,10 @@
-# Fancybox
+# Fancybox v6 for flarum 1.x
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fastchen/fancybox.svg)](https://packagist.org/packages/fastchen/fancybox) [![Total Downloads](https://img.shields.io/packagist/dt/fastchen/fancybox.svg)](https://packagist.org/packages/fastchen/fancybox)
 
-A [Flarum](https://flarum.org) extension. Fancybox v6
+A [Flarum](https://flarum.org) extension.
 
-## Installation
+## Installation / 安装
 
 Install with composer:
 
@@ -12,7 +12,7 @@ Install with composer:
 composer require fastchen/flarum-fancybox:"*"
 ```
 
-## Updating
+## Updating / 更新
 
 ```sh
 composer update fastchen/flarum-fancybox:"*"

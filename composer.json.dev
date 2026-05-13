@@ -1,0 +1,43 @@
+{
+    "name": "fastchen/flarum-fancybox",
+    "description": "Fancybox v6 for Flarum 1.x",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "support": {
+        "issues": "https://github.com/fastchen/issues",
+        "source": "https://github.com/fastchen/",
+        "forum": "https://discuss.flarum.org/d/1"
+    },
+    "authors": [
+        {
+            "name": "FastChen",
+            "email": "me@fastchen.com"
+        }
+    ],
+    "homepage": "https://nullcraft.org/",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://docs.nullcraft.org/donate"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Fancybox",
+            "icon": {
+                "name": "fas fa-photo-video",
+                "backgroundColor": "#1781b5",
+                "color": "#fff"
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0"
+    }
+}

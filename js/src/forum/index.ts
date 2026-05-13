@@ -2,6 +2,9 @@ import { extend } from 'flarum/extend';
 import app from 'flarum/app';
 import CommentPost from 'flarum/components/CommentPost';
 
+// fancybox@6.1.14
+const localPath = '/assets/extensions/fastchen-fancybox'
+
 /**
  * 动态加载 Fancybox CDN
  */
@@ -12,7 +15,8 @@ const loadFancyboxCDN = () => {
       const link = document.createElement('link');
       link.id = 'fancybox-css';
       link.rel = 'stylesheet';
-      link.href = 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css';
+      // link.href = 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css';
+      link.href = localPath + '/fancybox.css';
       document.head.appendChild(link);
     }
 
@@ -22,7 +26,8 @@ const loadFancyboxCDN = () => {
     }
 
     const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js';
+    // script.src = 'https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js';
+    script.src = localPath + '/fancybox.umd.js';
     script.onload = () => resolve(window.Fancybox);
     script.onerror = () => console.error('Fancybox CDN 加载失败');
     document.body.appendChild(script);
