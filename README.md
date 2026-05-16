@@ -1,6 +1,6 @@
 # Fancybox v6 for flarum 1.x
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/fastchen/fancybox.svg)](https://packagist.org/packages/fastchen/fancybox) [![Total Downloads](https://img.shields.io/packagist/dt/fastchen/fancybox.svg)](https://packagist.org/packages/fastchen/fancybox)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/FastChen/flarum-ext-fancybox/blob/1.x/LICENSE) [![Latest Stable Version](https://img.shields.io/packagist/v/fastchen/flarum-fancybox.svg)](https://packagist.org/packages/fastchen/flarum-fancybox) [![Total Downloads](https://img.shields.io/packagist/dt/fastchen/flarum-fancybox.svg)](https://packagist.org/packages/fastchen/flarum-fancybox)
 
 A [Flarum](https://flarum.org) extension.
 
@@ -16,13 +16,12 @@ composer require fastchen/flarum-fancybox:"*"
 
 ```sh
 composer update fastchen/flarum-fancybox:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
 ## Links
 
 - [Fancyapps](https://fancyapps.com/)
-- [Packagist](https://packagist.org/packages/fastchen/fancybox)
-- [GitHub](https://github.com/fastchen/fancybox)
-- [Discuss(not post yet)](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Packagist](https://packagist.org/packages/fastchen/flarum-fancybox)
+- [GitHub](https://github.com/FastChen/flarum-ext-fancybox)
+- [Discuss(nullcraft.org)](https://nullcraft.org/d/123)
