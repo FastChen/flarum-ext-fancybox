@@ -1,0 +1,18 @@
+fastchen-fancybox:
+  forum:
+    fancybox:
+      prev: "Previous"
+      next: "Next"
+      zoom_in: "Zoom in"
+      zoom_out: "Zoom out"
+      toggle_full: "Toggle zoom level"
+      rotate_ccw: "Rotate counterclockwise"
+      rotate_cw: "Rotate clockwise"
+      flip_x: "Filp horizontally"
+      flip_y: "Filp vertically"
+      reset: "Reset"
+      toggle_autoplay: "Autoplay"
+      toggle_fullscreen: "Toggle fullscreen mode"
+      toggle_thumbs: "Toggle thumbnails"
+      close: "Close"
+      image_error: "This image couldn't be loaded. <br> Please try again later."

@@ -66,7 +66,9 @@ const getPostIdFromElement = (el) => {
  */
 app.initializers.add('fastchen/fancybox', async () => {
   // 1. 保证 Fancybox 加载完成
-  await loadFancyboxCDN();
+  await loadFancyboxCDN();``
+
+  console.log('Fancybox 已加载，2038', app.translator.trans('fastchen-fancybox.forum.fancybox.next', {}, '下一11张'), app.translator.trans('fastchen-fancybox.forum.test'));
 
   // 2. 全局委托绑定（只需要这一次！）
   Fancybox.bind('[data-fancybox]', {
@@ -86,7 +88,24 @@ app.initializers.add('fastchen/fancybox', async () => {
     Hash: false,
     Thumbs: false,
     dragToClose: true,
-    Image: { zoom: true }
+    Image: { zoom: true },
+    l10n: {
+      NEXT: app.translator.trans('fastchen-fancybox.forum.fancybox.next'),
+      PREV: app.translator.trans('fastchen-fancybox.forum.fancybox.prev'),
+      ZOOM_IN: app.translator.trans('fastchen-fancybox.forum.fancybox.zoom_in'),
+      ZOOM_OUT: app.translator.trans('fastchen-fancybox.forum.fancybox.zoom_out'),
+      TOGGLE_FULL: app.translator.trans('fastchen-fancybox.forum.fancybox.toggle_full'),
+      ROTATE_CCW: app.translator.trans('fastchen-fancybox.forum.fancybox.rotate_ccw'),
+      ROTATE_CW: app.translator.trans('fastchen-fancybox.forum.fancybox.rotate_cw'),
+      FLIP_X: app.translator.trans('fastchen-fancybox.forum.fancybox.flip_x'),
+      FLIP_Y: app.translator.trans('fastchen-fancybox.forum.fancybox.flip_y'),
+      RESET: app.translator.trans('fastchen-fancybox.forum.fancybox.reset'),
+      TOGGLE_AUTOPLAY: app.translator.trans('fastchen-fancybox.forum.fancybox.toggle_autoplay'),
+      TOGGLE_FULLSCREEN: app.translator.trans('fastchen-fancybox.forum.fancybox.toggle_fullscreen'),
+      TOGGLE_THUMBS: app.translator.trans('fastchen-fancybox.forum.fancybox.toggle_thumbs'),
+      CLOSE: app.translator.trans('fastchen-fancybox.forum.fancybox.close'),
+      IMAGE_ERROR: app.translator.trans('fastchen-fancybox.forum.fancybox.image_error'),
+    },
   });
 
   // 3. 对已经存在的帖子补充属性（如果渲染比脚本加载早）
