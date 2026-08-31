@@ -25,3 +25,14 @@ php flarum cache:clear
 - [Packagist](https://packagist.org/packages/fastchen/flarum-fancybox)
 - [GitHub](https://github.com/FastChen/flarum-ext-fancybox)
 - [Discuss(nullcraft.org)](https://nullcraft.org/d/123)
+
+
+## Dev
+
+### Build / 构建
+
+```bash
+cd js
+npm install
+npm run build
+```
