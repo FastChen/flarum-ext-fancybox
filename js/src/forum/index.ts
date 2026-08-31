@@ -68,9 +68,7 @@ app.initializers.add('fastchen/fancybox', async () => {
   // 1. 保证 Fancybox 加载完成
   await loadFancyboxCDN();``
 
-  console.log('Fancybox 已加载，2038', app.translator.trans('fastchen-fancybox.forum.fancybox.next', {}, '下一11张'), app.translator.trans('fastchen-fancybox.forum.test'));
-
-  // 2. 全局委托绑定（只需要这一次！）
+  // 2. 全局委托绑定
   Fancybox.bind('[data-fancybox]', {
     groupAttr: 'data-fancybox', // 根据这个属性值自动分相册
     Carousel: {
